@@ -1,0 +1,35 @@
+{
+  "name": "shuffle-range",
+  "version": "1.0.0",
+  "description": "Random numbers without replacement: every integer in a range, shuffled like a deck of cards. Lightweight enough for tens of thousands of instances.",
+  "author": "jaggedsoft",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "deckShuffle.js",
+    "shuffleRange.js"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "bench": "node --expose-gc bench.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "random",
+    "shuffle",
+    "range",
+    "fisher-yates",
+    "without-replacement",
+    "deck",
+    "gamedev",
+    "rng"
+  ],
+  "license": "MIT"
+}
