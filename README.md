@@ -1,4 +1,4 @@
-# shuffleRange**: Random numbers without replacement**
+# shuffleRange: Random numbers without replacement
 
 **Every integer in a range, dealt in random order, like a shuffled deck of cards.** Every number comes out exactly once, then the deck is reshuffled. Lightweight enough for tens of thousands of instances. Built to provide satisfying gameplay outcomes while reducing player frustration.
 
